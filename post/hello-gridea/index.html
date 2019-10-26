@@ -2,9 +2,9 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Hello Gridea | Gridea</title>
-<meta name="description" content="温故而知新" />
-<link rel="shortcut icon" href="https://timmyzeng.github.io/favicon.ico?v=1572060167050">
+<title>Hello Gridea | TimmyCode</title>
+<meta name="description" content="<strong>希望颈肩不要再酸了</strong>" />
+<link rel="shortcut icon" href="https://timmyzeng.github.io/favicon.ico?v=1572060869111">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://timmyzeng.github.io/styles/main.css">
@@ -20,13 +20,13 @@
       <div class="main-content">
         <div class="site-header">
   <a href="https://timmyzeng.github.io">
-  <img class="avatar" src="https://timmyzeng.github.io/images/avatar.png?v=1572060167050" alt="">
+  <img class="avatar" src="https://timmyzeng.github.io/images/avatar.png?v=1572060869111" alt="">
   </a>
   <h1 class="site-title">
-    Gridea
+    TimmyCode
   </h1>
   <p class="site-description">
-    温故而知新
+    <strong>希望颈肩不要再酸了</strong>
   </p>
   <div class="menu-container">
     
@@ -57,6 +57,10 @@
   </div>
   <div class="social-container">
     
+      
+        <a href="https://github.com/timmyzeng" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
       
     
       
@@ -132,6 +136,32 @@
 
         
 
+        
+          
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+
+<script>
+
+  var gitalk = new Gitalk({
+    clientID: '12699de277c8b602d64a',
+    clientSecret: '880ed35e29bb52f1bddf68c708487f9e7ee98cf3',
+    repo: 'timmyzeng.github.io',
+    owner: 'timmyzeng',
+    admin: ['timmyzeng'],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+
+</script>
+
+          
+
+          
         
 
         <div class="site-footer">
