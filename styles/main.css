@@ -351,11 +351,11 @@ td {
   padding: 0 24px;
 }
 .site-header {
-  padding: 48px 0;
-  text-align: center;
+  padding: 48px 0 24px 0;
+  text-align: left;
 }
 .site-header .site-title {
-  font-size: 32px;
+  font-size: 28px;
   font-weight: bold;
 }
 .site-header .site-description {
@@ -366,14 +366,19 @@ td {
 }
 .site-header .menu-container {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   flex-wrap: wrap;
+  padding: 8px 0px;
 }
 .site-header .menu-container a.menu {
   font-size: 16px;
-  padding: 8px 16px;
+  padding: 8px 16px 8px 0px;
   flex-shrink: 0;
   font-weight: 600;
+}
+.site-header .menu-container a.social {
+  padding: 10px 16px 8px 0px;
+  flex-shrink: 0;
 }
 .site-header .avatar {
   margin-bottom: 24px;
@@ -405,7 +410,7 @@ td {
   padding-bottom: 32px;
 }
 .post-container .post .post-title {
-  font-size: 28px;
+  font-size: 24px;
   text-align: center;
   padding: 24px 0;
   font-weight: 900;
@@ -445,7 +450,7 @@ td {
   transform: scale(1.0082);
 }
 .post-container .post .post-abstract {
-  padding: 24px 0;
+  padding: 2px 0 0 0;
   line-height: 1.5;
   font-size: 16px;
 }
@@ -500,7 +505,7 @@ td {
     font-size: 24px;
   }
   .post-container .post .post-abstract {
-    padding: 16px 0;
+    padding: 0;
   }
   .post-container .post .post-feature-image {
     padding-top: 56.25%;
@@ -519,7 +524,7 @@ td {
   border-radius: 2px;
 }
 .post-detail .post .post-title {
-  font-size: 32px;
+  font-size: 28px;
   text-align: center;
   padding: 24px 0;
   font-weight: 900;
@@ -646,10 +651,10 @@ td {
   padding-top: 16px;
 }
 .post-detail .post .post-content h1 {
-  font-size: 1.8em;
+  font-size: 1.5em;
 }
 .post-detail .post .post-content h2 {
-  font-size: 1.42em;
+  font-size: 1.3em;
 }
 .post-detail .post .post-content h3 {
   font-size: 1.17em;
@@ -758,7 +763,7 @@ td {
   transition: all 0.2s ease;
 }
 .next-post {
-  text-align: center;
+  text-align: left;
   padding: 24px 32px;
 }
 .next-post .next {
@@ -876,7 +881,7 @@ td {
   color: #212529;
 }
 .current-tag-container .title {
-  text-align: center;
+  text-align: left;
   font-size: 18px;
   margin-bottom: 24px;
 }
@@ -972,19 +977,23 @@ td {
       }
     
       .post-container .post .post-title {
-        text-align: center;
+        text-align: left;
       }
       .post-container .post .post-info {
-        text-align: center;
+        text-align: left;
       }
       .post-detail .post .post-title {
-        text-align: center;
+        text-align: left;
       }
       .post-detail .post .post-info {
-        text-align: center;
+        text-align: left;
       }
     
       body {
         font-family: -apple-system,BlinkMacSystemFont,'Helvetica Neue','PingFang SC','Hiragino Sans GB','Droid Sans Fallback','Microsoft YaHei',sans-serif;
+      }
+    
+      a:hover {
+        color: #22b8cf;
       }
     

@@ -2,11 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://timmyzeng.github.io</id>
     <title>TimmyCode</title>
-    <updated>2019-12-29T02:24:50.187Z</updated>
+    <updated>2019-12-29T05:29:51.558Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://timmyzeng.github.io"/>
     <link rel="self" href="https://timmyzeng.github.io/atom.xml"/>
-    <subtitle>&lt;strong&gt;希望颈肩不要再酸了&lt;/strong&gt;</subtitle>
     <logo>https://timmyzeng.github.io/images/avatar.png</logo>
     <icon>https://timmyzeng.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, TimmyCode</rights>
@@ -16,10 +15,16 @@
         <link href="https://timmyzeng.github.io/uqJQgSieI">
         </link>
         <updated>2019-12-29T02:17:49.000Z</updated>
+        <summary type="html"><![CDATA[<p>😘</p>
+<blockquote>
+<p>不知道会怎么样的效果</p>
+</blockquote>
+]]></summary>
         <content type="html"><![CDATA[<p>😘</p>
 <blockquote>
 <p>不知道会怎么样的效果</p>
 </blockquote>
+<!-- more -->
 <ol>
 <li>之前也没有好好用过这个客户端</li>
 <li>尝试更换一下主题</li>
