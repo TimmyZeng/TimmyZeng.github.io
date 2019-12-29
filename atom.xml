@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://timmyzeng.github.io</id>
     <title>TimmyCode</title>
-    <updated>2019-12-29T02:21:33.344Z</updated>
+    <updated>2019-12-29T02:24:50.187Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://timmyzeng.github.io"/>
     <link rel="self" href="https://timmyzeng.github.io/atom.xml"/>
@@ -12,8 +12,8 @@
     <rights>All rights reserved 2019, TimmyCode</rights>
     <entry>
         <title type="html"><![CDATA[测试一下新的文章]]></title>
-        <id>https://timmyzeng.github.io/post/uqJQgSieI</id>
-        <link href="https://timmyzeng.github.io/post/uqJQgSieI">
+        <id>https://timmyzeng.github.io/uqJQgSieI</id>
+        <link href="https://timmyzeng.github.io/uqJQgSieI">
         </link>
         <updated>2019-12-29T02:17:49.000Z</updated>
         <content type="html"><![CDATA[<p>😘</p>
@@ -38,8 +38,8 @@ int main(int argc, char* argv[])
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://timmyzeng.github.io/post/hello-gridea</id>
-        <link href="https://timmyzeng.github.io/post/hello-gridea">
+        <id>https://timmyzeng.github.io/hello-gridea</id>
+        <link href="https://timmyzeng.github.io/hello-gridea">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
