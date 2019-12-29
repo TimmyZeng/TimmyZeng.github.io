@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://timmyzeng.github.io</id>
     <title>TimmyCode</title>
-    <updated>2019-12-29T02:10:35.585Z</updated>
+    <updated>2019-12-29T02:17:04.386Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://timmyzeng.github.io"/>
     <link rel="self" href="https://timmyzeng.github.io/atom.xml"/>
@@ -10,18 +10,6 @@
     <logo>https://timmyzeng.github.io/images/avatar.png</logo>
     <icon>https://timmyzeng.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, TimmyCode</rights>
-    <entry>
-        <title type="html"><![CDATA[关于]]></title>
-        <id>https://timmyzeng.github.io/post/about</id>
-        <link href="https://timmyzeng.github.io/post/about">
-        </link>
-        <updated>2019-10-26T03:34:15.000Z</updated>
-        <content type="html"><![CDATA[<blockquote>
-<p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
-</blockquote>
-<figure data-type="image" tabindex="1"><img src="https://timmyzeng.github.io/post-images/1577585078157.jpg" alt="" loading="lazy"></figure>
-]]></content>
-    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://timmyzeng.github.io/post/hello-gridea</id>
