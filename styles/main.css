@@ -436,12 +436,13 @@ td {
 .post-container .post .post-feature-image {
   display: block;
   width: 100%;
-  padding-top: 32.6%;
+  padding-top: 35%;
   border-radius: 2px;
   overflow: hidden;
   background-size: cover;
   background-position: center;
   transition: all 0.3s;
+  margin: auto;
 }
 .post-container .post .post-feature-image img {
   width: 100%;
